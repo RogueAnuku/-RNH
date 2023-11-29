@@ -42,6 +42,7 @@ color: #00BFF0; /* Change the color to your desired hover color */
 }
 
 .logo {
+    margin-right: auto;
     margin-left: auto;
     width: 50%;
 }
@@ -147,8 +148,9 @@ iframe {
 }
 
 .col-md-12 {
-    padding: 4%;
+    display: flex;
     color: white;
+    flex-direction: column;
 }
 .col-md-12 p {
    
@@ -177,6 +179,11 @@ iframe {
  .video-container {
     width: 38%;
  }
+ a {
+    color: #00bff0;
+    text-decoration: none;
+    background-color: transparent;
+}
 .footer {
     position: absolute;
     width: 100%;
