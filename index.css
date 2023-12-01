@@ -82,11 +82,7 @@ color: #00BFF0; /* Change the color to your desired hover color */
         padding-left: 6%;
         text-align: left;
     }
-body h1{
-   
-        padding-left: 5%;
-   
-}
+
 .h1, h1 {
  
   
@@ -132,11 +128,16 @@ iframe {
     /* background-color: #fff; */
     border: 1px solid rgb(0 123 255 / 20%);
 }
+
   .col-md-4 img{ width: 100%;}
  
 
   .mb-0 {
   margin-bottom: 4%!important;
+}
+.col-md-6 {
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .col-md-6 img {
@@ -160,6 +161,10 @@ iframe {
 .col-md-12 p {
    padding-left: 5%;
     color: white;
+}
+.col-md-10{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .col-md-6 video{
